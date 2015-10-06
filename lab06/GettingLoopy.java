@@ -1,7 +1,7 @@
 //Alec Tilley
 //10-02-15
 //lab06
-//This program will pick a random card out of the deck
+//This program will print out certain loops
 //
 //Import the random util
 import java.util.Random;
