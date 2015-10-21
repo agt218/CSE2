@@ -13,6 +13,7 @@ public class StringAnalysis{
         int i = 0;
         int letters1=0;
         int numbers1=0;
+       
         while(i<length){
           
             if(mop.charAt(i)>'a' && mop.charAt(i)<'z'){ //Checking to see if character is a letter
@@ -23,6 +24,7 @@ public class StringAnalysis{
                 numbers1++; //Increasing the number counter
                 i++; //moving on to analyze the next letter
             }
+          
         }
         System.out.println("Your string contained "+ letters1 + " letters and " + numbers1 + " numbers"); //Printing out how many letters and numbers were in the string
         
@@ -42,6 +44,7 @@ public class StringAnalysis{
         int o = 0;
         int letters2 = 0;
         int numbers2=0;
+        
         while(o<length3){
             if(dad.charAt(o)>'a' && dad.charAt(o)<'z'){ //Checking to see if the character is a letter
                 letters2 ++; //increasing the letter counter
@@ -53,7 +56,8 @@ public class StringAnalysis{
             }
         }
          System.out.println("Your string contained "+ letters2 + " letters and " + numbers2 + " numbers"); //Printing out the number of letters and numbers in the string
-        }
+        
+    }
     
   public static void main(String[] args){ //adding a main method   //adding the main method
         //Declaring instances of the scanners
